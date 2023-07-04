@@ -3,7 +3,7 @@ public with sharing class AccountController {
     @AuraEnabled(cacheable=true)
     public static List<Account> getAccountList() {
         //Test security scan editable
-        return [SELECT Id, Name FROM Account LIMIT 10];
+        return [SELECT Id, Name FROM Account LIMIT 1001];
     }
 
     @AuraEnabled(cacheable=true)
