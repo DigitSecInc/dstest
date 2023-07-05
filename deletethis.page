@@ -1,0 +1,22 @@
+<apex:page standardcontroller="Security_Scan_oOlOo__c" >
+<apex:includeScript value="{!$Resource.jquery}"/>
+
+
+
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+This is your new Page
+<!-- End Default Content REMOVE THIS -->
+<script>
+var foo = '{!Security_Scan_oOlOo__c.Name}';
+//var code = "\t<script>alert('fine');var foo = document.getElementById('test');</\/script>";
+/*console.error('Test');
+if(code.match(boo))
+{
+//fobadds();
+console.log('matched');
+}*/
+
+</script>
+<apex:outputText value="{!Security_Scan_oOlOo__c.Name}" rendered="true" escape="false"/>
+</apex:page>
