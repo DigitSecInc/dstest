@@ -1,7 +1,7 @@
 /*!
  * jQuery JavaScript Library v1.8.2
  * http://jquery.com/
- *
+ * Adding a change
  * Includes Sizzle.js
  * http://sizzlejs.com/
  *
